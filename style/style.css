@@ -1,0 +1,181 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.bgImage
+{
+    background-color: #C5FFF8;
+    width:100%;
+    height:800px;
+}
+.cloudImagesRight>img
+{
+    position: absolute;
+    right:20%;
+    top:10%;
+}
+.bgImage>h1
+{
+    font-family: cursive;
+    font-size: 40px;
+    color: #5FBDFF;
+    text-align: center;
+    position: relative;
+    top:30%;
+}
+.bgImage>p
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:#5FBDFF;
+    text-align: center;
+    position: relative;
+    top:30%;
+}
+.cloudImagesLeft>img
+{
+    position: absolute;
+    left:20%;
+    top:70%;
+}
+.mountainImage
+{
+    margin-top:24%;
+    margin-left:27%;
+}
+.helloSection, .skillSection, .contactSection, .footerSection
+{
+    width:100%;
+}
+.helloSection>img
+{
+    margin-left:43%;
+    margin-top:10%;
+}
+.helloSection>h1,p
+{
+    color: #5FBDFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top:30px;
+    font-weight: lighter;
+}
+.helloSection>p
+{
+    font-size:20px;
+}
+.circlePoint
+{
+    margin-left:48%;
+}
+.circle
+{
+    list-style-type: none;
+}
+.cricle1
+{
+    width:8px;
+    height: 8px;
+    background-color: #5FBDFF;
+    border-radius: 50px;
+    float: left;
+    margin:2px;
+    margin-top:10px;
+}
+
+.skillSection  h1
+{
+    color: #5FBDFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top:80px;
+    font-weight: lighter;
+}
+.skillSection>img
+{
+    float: left;
+    margin-left: 34%;
+    margin-top:2%;
+}
+.skillSection>ul
+{
+    position: relative;
+    left:40px;
+    width:70%;
+    color: #5FBDFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    margin-top:2%;
+}
+.skillSection>ul>li
+{
+    list-style-type: decimal;
+    margin-left:30px;
+
+}
+.contactSection>h1
+{
+    color: #5FBDFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top:80px;
+    font-weight: lighter;
+}
+.contactSection>div
+{
+    color: #5FBDFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top:10px;
+}
+.contactSection>input
+{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+50 */
+background: linear-gradient(to bottom,  #00b7ea 0%,#009ec3 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 45%;
+    font-size:20px;
+    border-radius:10px;
+    padding:10px;
+    border:none;
+    margin-top:10px;
+    color:#fff;
+    cursor: pointer;
+}
+.contactSection>input:hover
+{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+background: linear-gradient(to bottom,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.footerSection
+{
+    background-color: #2F8F9D;
+    margin-top: 10px;
+    padding:40px 0px 40px 0px;
+}
+.footerSection a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+    position:relative;
+    top:20px;
+    left:40%;  
+    font-size:20px;
+}
+.footerSection a:hover
+{
+    color:#000;
+    transition: all 1s ease-in-out;
+}
+.footerSection p
+{
+    position: relative;
+    top:30px;
+    color:#fff;
+}
+
